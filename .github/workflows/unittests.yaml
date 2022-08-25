@@ -11,6 +11,6 @@ jobs:
           python-version: 3.10.0
           architectre: x64
       - name: Intall dpendencie
-        runpip instll -r requirements.txt 
+        runpip instll -r requirements.txt
       - name: Run Tests
         run: python -m pytest uses: a
